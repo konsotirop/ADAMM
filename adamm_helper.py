@@ -55,4 +55,4 @@ def adamm_fit(train_dataset, test_dataset):
 
     scores = torch.cat(scores).detach().numpy()
 
-    return scores, np.mean(train_validation_score), np.mean(test_validation_score)
+    return scores, np.mean(train_validation_score)
